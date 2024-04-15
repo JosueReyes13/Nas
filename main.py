@@ -17,12 +17,12 @@ def subir_video():
         video = request.files['video']
         
         # Lista de direcciones IP del servidor NAS
-        server_addresses = ["192.168.1.1", "192.168.200.1"]
-        username = "tecnologias.informacion"
-        password = "_As3s4Eles02_"
-        domain = ""  
-        share_name = "ti"  
-        folder_path = ""  
+        server_addresses = [""] # Colocar con las direcciones IP de tu servidor
+        username = "" # Colocar con el usuario de tu servidor
+        password = "" # Colocar con la contraseña de tu servidor
+        domain = ""  # Dominio de tu servidor
+        share_name = ""  # Nombre de la canta compartida dentro del servidor
+        folder_path = ""  # Ruta de la canta compartida dentro del servidor
         
         conn = None
 
