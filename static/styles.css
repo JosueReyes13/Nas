@@ -1,0 +1,152 @@
+body {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Estilos generales para todos los botones */
+button {
+    background-color: #C0392B;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E74C3C;
+}
+
+/* Estilos para los botones con color de fondo tinto */
+button.tinto {
+    background: #C0392B; /* Cambiamos el color a tinto */
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 60px;
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+}
+
+button.tinto:hover {
+    background: #fff;
+    color: #C0392B; /* Cambiamos el color del texto al tinto */
+}
+
+button.tinto:before,
+button.tinto:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #C0392B; /* Cambiamos el color a tinto */
+    transition: 400ms ease all;
+}
+
+button.tinto:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button.tinto:hover:before,
+button.tinto:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+/* Otros estilos */
+body {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h1 a {
+    color: #C0392B;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #E74C3C;
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #C0392B;
+    margin-bottom: 20px;
+    width: 80%; /* Cambiamos el ancho a 80% */
+    margin: 0 auto; /* Centramos horizontalmente */
+    box-sizing: border-box; /* Ajustamos el modelo de caja */
+}
+
+legend {
+    color: #C0392B;
+    font-weight: bold;
+}
+
+select,
+input[type="file"],
+button {
+    width: auto;
+    box-sizing: border-box; /* Ajustamos el modelo de caja */
+    margin: 0 auto; /* Centramos horizontalmente */
+    margin-bottom: 10px;
+}
+
+#errorMsg {
+    color: #E74C3C;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a#viewSource {
+    color: #C0392B;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+a#viewSource:hover {
+    text-decoration: underline;
+}
