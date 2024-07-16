@@ -64,6 +64,19 @@ Este archivo contiene el código JavaScript que maneja la grabación de medios y
 
 ![Interfaz de la Aplicación](Capturas_de_Pantalla/Captura%20de%20pantalla%202024-07-16%20110314.png)
 
+### Configuración del archivo main.py
+
+Dentro del archivo main.py hay una función la cual esta conectada con el boton "Subir archivos", el cual se debe configurar
+para que funcione.
+
+![Función](Capturas_de_Pantalla/Captura%20de%20pantalla%202024-07-16%20121046.png)
+
+Esta es la función que se encarga de conectar el boton con la NAS o servidor a donde quieras mandar tu archivo, dentro de este listado se deben colocar los datos correspondiente para mandor los archisvos.
+- server_addresses: Aqui se debe colocar la dirección IP del servidor o NAS a donde se quiere mandar el archivo
+- username y password: En caso de que tu servidor cuante con permisos para acceder a este se deben colocar tanto el usuario como la contraseña de este.
+- domain: nombre del dominio donde estas tu servidor.
+- share_name y folder_path: nombre de las carpetas (en caso de que quieres que los archivos subidos se vayan a alguna carpeta en especifico). 
+
 ## Contribuir
 
 Si deseas contribuir a este proyecto, sigue estos pasos:
